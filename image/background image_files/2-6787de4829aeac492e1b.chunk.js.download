@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{4:function(o,t,s){"use strict";s.r(t);var e={loadedControllers:[],application:s(13).a.start(),register:function(o,t){this.loadedControllers.includes(o)||(this.application.register(o,t),this.loadedControllers.push(o))}};t.default=e}}]);
+//# sourceMappingURL=2-6787de4829aeac492e1b.chunk.js.map

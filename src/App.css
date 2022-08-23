@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: bl;
+  flex-direction: column;
+}
+
+.card {
+  width: 40rem;
+  height: 30rem;
+  border-radius: 12px;
+  background-color: rgb(172, 118, 127);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.App h1 {
+  margin-bottom: 20px;
+}
+ol {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+ol li {
+  height: 30px;
+  border-radius: 50px;
+  background-color: pink;
+  padding: 10px 100px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 500px;
+  cursor: pointer;
+}
+
+ol li:hover {
+  background-color: inherit;
+  border: 1px solid pink;
+  color: pink;
+}
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Dimensions  */
+  width: 40rem; /* Can be in percentage also. */
+  height: 30rem;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: rgb(172, 118, 127);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  
+}
+
+.final-results h2 {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(151, 96, 105); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 30px;
+  transition: color 2s;
+}
+button:hover {
+  color: rgb(151, 96, 105);
+  background-color: inherit;
+  outline: 2px solid rgb(151, 96, 105);
+}

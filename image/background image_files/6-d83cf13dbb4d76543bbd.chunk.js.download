@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{11:function(e,t,n){"use strict";n.d(t,"a",(function(){return a}));var r=n(13);class a extends r.b{flagLoaded(){this.element.setAttribute("data-loaded","true")}get csrfToken(){return document.querySelector("meta[name=csrf-token]")?document.querySelector("meta[name=csrf-token]").content:null}get csrfParam(){return document.querySelector("meta[name=csrf-param]")?document.querySelector("meta[name=csrf-param]").content:null}}}}]);
+//# sourceMappingURL=6-d83cf13dbb4d76543bbd.chunk.js.map
